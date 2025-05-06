@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Colorization Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('back.png') no-repeat center fixed;
+            background-size: cover;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgba(53, 66, 74, 0.8);
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .description {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.2em;
+            color: #000;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .features {
+            margin: 20px auto;
+            text-align: left;
+            display: inline-block;
+            max-width: 600px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .feature {
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: #000;
+        }
+
+        .start-button {
+            margin-bottom: 10px;
+            margin-top: 350px;
+            padding: 10px 20px;
+            background-color: rgba(92, 184, 92, 0.8);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        .start-button:hover {
+            background-color: rgba(76, 174, 76, 0.8);
+        }
+
+        footer {
+            text-align: center;
+            padding: 5px 0;
+            background: rgba(53, 66, 74, 0.8);
+            color: #ffffff;
+            width: 100%;
+            position: relative;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image Colorization Tool</h1>
+        <p>Transform your black and white images into vibrant color!</p>
+    </header>
+
+    <main>
+        <div class="description">
+            <p><strong>Welcome to our Image Colorization Tool!</strong></p>
+        </div>
+
+        <div>
+            <button class="start-button" onclick="window.location.href='index.html';"><strong>Start</strong></button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Image Colorization Tool. All rights reserved.</p>
+    </footer>
+</body>
+</html>
